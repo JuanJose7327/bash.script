@@ -2,6 +2,11 @@
 
 position=$1
 
+#Check for empty parameter
+if [ ! "$position"]; then
+	echo "[<position>] --> 'right', 'left', 'above'"
+else
+
 #Select the user position
 if [ $position == "left" ]; then
 	pos="right-of"
@@ -14,5 +19,5 @@ else
 fi
 	
 #Set comand to xrandr application
-#xrandr --output eDP-1 --primary --mode 1366x768 --rotate normal --output HDMI-1 --mode 1366x768 --rotate normal --$pos eDP-1
-
+xrandr --output eDP-1 --primary --mode 1366x768 --rotate normal --output HDMI-1 --mode 1366x768 --rotate normal --$pos eDP-1
+fi
