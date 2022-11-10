@@ -1,5 +1,10 @@
 #!/bin/bash
-
+# this is a test for news comments
+# and how to copie various line of 
+# code using neovim and mainly, 
+# how can I improve the merge using
+# the new line of the code.
+#
 position=$1
 
 #Check for empty parameter
@@ -21,3 +26,10 @@ fi
 #Set comand to xrandr application
 xrandr --output eDP-1 --primary --mode 1366x768 --rotate normal --output HDMI-1 --mode 1366x768 --rotate normal --$pos eDP-1
 fi
+
+# this is a test for news comments
+# and how to copie various line of 
+# code using neovim and mainly, 
+# how can I improve the merge using
+# the new line of the code.
+#
