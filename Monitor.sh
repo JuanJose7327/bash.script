@@ -1,10 +1,9 @@
 #!/bin/bash
-# this is a test for news comments
-# and how to copie various line of 
-# code using neovim and mainly, 
-# how can I improve the merge using
-# the new line of the code.
-#
+#--------------------------------------------------------------------#
+# Autor: Juan Jose Solorzano.
+# Propose: This script allows to change the HDMI monitor location.
+# Use: """""""""
+#--------------------------------------------------------------------#
 position=$1
 
 #Check for empty parameter
